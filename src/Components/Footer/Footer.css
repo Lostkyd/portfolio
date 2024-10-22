@@ -24,3 +24,16 @@
         margin-bottom: 50px;
     }
 }
+@media(max-width:480px) and (max-width:769px){
+    .footer{
+        margin: 20px 40px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .footer-bottom-right p{
+        font-size: 17px
+    }
+}

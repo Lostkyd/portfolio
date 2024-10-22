@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
     margin: 80px 170px;
 }
 .projects-title{
@@ -37,7 +37,7 @@
     gap: 15px;
     border-radius: 50px;
     border: 2px solid white;
-    padding: 30px 60px;
+    padding: 20px 40px;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 80px;
@@ -71,6 +71,32 @@
         padding: 20px 40px;
         font-size: 18px;
         margin: 50px auto;
+        cursor: pointer;
+    }
+}
+@media(max-width:480px) and (max-width: 769px){
+    .projects{
+        gap: 50px;
+        margin: 20px 40px;
+        align-items: start;
+    }
+    .projects-title h1{
+        padding: 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .projects-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .projects-container img{
+        width: 120%;
+        height: 120%;
+    }
+    .projects-showmore{
+        padding: 20px 30px;
+        font-size: 20px;
+        margin: 100px auto;
         cursor: pointer;
     }
 }
