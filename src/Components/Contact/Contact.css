@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 250px 170px;
 }
 .contact-title{
     position: relative;
@@ -74,7 +74,7 @@
     font-size: 20px;
 }
 .contact-right textarea{
-    width: 650px;
+    width: 670px;
     border: none;
     padding: 25px;
     border-radius: 4px;

@@ -86,13 +86,20 @@
         font-size: 40px;
         font-weight: 500;
     }
-    .projects-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 50px;
+    .projects-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        justify-items: center; 
+        align-items: center;   
     }
-    .projects-container img{
-        width: 120%;
-        height: 120%;
+    
+    .projects-container img {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        transition: 0.3s;
+        cursor: pointer;
     }
     .projects-showmore{
         padding: 15px 30px;
