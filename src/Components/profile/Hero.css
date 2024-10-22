@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     cursor: default;
 }
 .hero h1{
@@ -120,6 +120,5 @@
     }
     .hero-logos{
         gap: 15px;
-        margin-top: -40px;
     }
 }
